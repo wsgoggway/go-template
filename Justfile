@@ -1,2 +1,2 @@
-test:
-  echo "test"
+sqlc-gen:
+  sqlc generate

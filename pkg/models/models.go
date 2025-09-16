@@ -13,3 +13,8 @@ type Author struct {
 	Name string
 	Bio  pgtype.Text
 }
+
+type User struct {
+	ID   int64
+	Name string
+}
