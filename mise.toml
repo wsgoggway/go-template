@@ -1,1 +1,8 @@
 [tools]
+go = "latest"
+
+[env]
+NODE_ENV = 'production'
+
+[tasks.build]
+run = 'echo "running build tasks"'
